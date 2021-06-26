@@ -28,4 +28,9 @@ fn main() {
 			None => println!("There is no fruit, sad :-("),
 		}
     }
+	// using if let
+	let a_number: Option<u8> = Some(7);
+		if let Some(77) = a_number {
+		println!("That's my lucky number!");	// this line doesnt get printed
+	}
 }
