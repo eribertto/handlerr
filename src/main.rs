@@ -20,7 +20,7 @@ fn main() {
         }
     }
     // another fine-grained filtering option by specifying fruit name inside Some
-    for &index in [0, 2, 99].iter() {
+    for &index in [0, 2, 99, 199].iter() {
 		match fruits.get(index) {
 			// specify the fruit name
 			Some(&"coconut") => println!("Coconuts are hard headed but still awesome, lol!"),
